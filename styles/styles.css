@@ -1,11 +1,10 @@
-
 /* Full Web Margin */
-.container{
+.container {
     max-width: 1280px;
     margin: auto;
 }
 
-
+/* - - - Nav Section - - -  */
 nav {
     display: flex;
     justify-content: space-between;
@@ -13,7 +12,7 @@ nav {
     margin-top: 49px;
 }
 
-.nav-items ul{
+.nav-items ul {
     list-style: none;
     display: flex;
     gap: 24px;
@@ -28,13 +27,13 @@ nav {
     color: #707070;
 }
 
-.search-bar{
+.search-bar {
     position: relative;
     color: #BABABA;
-    
+
 }
 
-.search-bar input{
+.search-bar input {
     border: none;
 }
 
@@ -42,7 +41,6 @@ nav {
     position: absolute;
     top: 17px;
     right: 20px
- 
 }
 
 nav input {
@@ -52,4 +50,72 @@ nav input {
     background: #F1F1F1;
     padding: 12px;
 
+}
+
+/* - - - Banner Section - - -  */
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 141px;
+    background: rgb(254, 234, 233);
+    margin: 63px auto 0;
+    max-width: 1400px;
+    height: 455px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner-content {
+    margin: 68px 0 69px 46px;
+}
+
+.banner-title {
+    font-size: 56px;
+    font-weight: bold;
+    color: #1F1F1F;
+    font-family: Poppins;
+    text-align: left;
+    margin: 68px 0 8px 0;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #1F1F1F;
+    font-family: Poppins;
+    text-align: left;
+}
+
+.banner-value {
+    font-size: 41px;
+    font-weight: 500px;
+    color: #FF136F;
+    font-family: Poppins;
+    text-align: left;
+}
+
+.banner-section button {
+    width: 168px;
+    height: 52px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    background-color: #FF136FFF;
+    outline-style: none;
+    margin-bottom: 69px;
+    border: none;
+}
+
+.banner-section button:hover{
+    background-color: #FF9C35;
+    color: white;
+}
+
+.banner-section img {
+    margin: 38px 63px 39px 0;
+    width: 402px;
+    height: 378px;
 }
