@@ -109,7 +109,7 @@ nav input {
     border: none;
 }
 
-.banner-section button:hover{
+.banner-section button:hover {
     background-color: #FF9C35;
     color: white;
 }
@@ -118,4 +118,71 @@ nav input {
     margin: 38px 63px 39px 0;
     width: 402px;
     height: 378px;
+}
+
+/* } - - categories-section - -  */
+
+.categories-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26px;
+    max-width: 1280px;
+    margin: 78px auto 0;
+
+}
+
+.categories-section img{
+    width: 94px;
+    height: 94px;
+}
+
+.categories-section h4{
+margin: 33px 0 33px 46px;
+}
+
+.watch-catagory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF9C35;
+    width: 450px;
+    height: 120px;
+    border-radius: 10px;
+    color: white;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    gap: 30px;
+
+}
+
+.bag-catagory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF589B;
+    width: 450px;
+    height: 120px;
+    border-radius: 10px;
+    color: white;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    gap: 30px;
+}
+
+.shoes-catagory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4289FF;
+    width: 450px;
+    height: 120px;
+    border-radius: 10px;
+    color: white;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    gap: 30px;
 }
