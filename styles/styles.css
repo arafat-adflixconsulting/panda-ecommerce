@@ -209,7 +209,8 @@ nav input {
 
 .all-shoes-collection h4 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: Poppins;
 }
 
 .all-shoes-collection button {
@@ -233,6 +234,7 @@ nav input {
     border-radius: 10px;
     width: 360px;
     height: 496px;
+    font-family: Poppins;
 
 }
 
@@ -243,6 +245,7 @@ nav input {
     border-radius: 10px;
     width: 360px;
     height: 496px;
+    font-family: Poppins;
 
 }
 
@@ -253,6 +256,7 @@ nav input {
     border-radius: 10px;
     width: 360px;
     height: 496px;
+    font-family: Poppins;
 
 }
 
@@ -274,7 +278,8 @@ nav input {
 
 .all-backpack-collection h4 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: Poppins;
 }
 
 .all-backpack-collection button {
@@ -298,6 +303,7 @@ nav input {
     border-radius: 10px;
     width: 360px;
     height: 584px;
+    font-family: Poppins;
 
 }
 
@@ -308,6 +314,7 @@ nav input {
     border-radius: 10px;
     width: 360px;
     height: 584px;
+    font-family: Poppins;
 
 }
 
@@ -318,5 +325,63 @@ nav input {
     border-radius: 10px;
     width: 360px;
     height: 584px;
+    font-family: Poppins;
 
+}
+
+/* - - - Footer section - - -  */
+
+footer {
+    background: rgb(254, 234, 233);
+    margin: 100px auto 100px;
+    max-width: 1400px;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+
+.footer-content {
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: Poppins;
+    text-align: center;
+}
+
+footer .newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer input {
+    width: 350px;
+    height: 52px;
+}
+
+footer button{
+    width: 200px;
+    height: 52px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    background-color: black;
+    outline-style: none;
+    margin-bottom: 69px;
+    border: none;
 }
