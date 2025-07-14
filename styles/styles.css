@@ -1,7 +1,11 @@
-/* Full Web Margin */
+/* Shared Style */
 .container {
     max-width: 1280px;
     margin: auto;
+}
+
+main {
+    background: rgb(244, 244, 244);
 }
 
 /* - - - Nav Section - - -  */
@@ -129,16 +133,17 @@ nav input {
     gap: 26px;
     max-width: 1280px;
     margin: 78px auto 0;
+    margin-bottom: 52px;
 
 }
 
-.categories-section img{
+.categories-section img {
     width: 94px;
     height: 94px;
 }
 
-.categories-section h4{
-margin: 33px 0 33px 46px;
+.categories-section h4 {
+    margin: 33px 0 33px 46px;
 }
 
 .watch-catagory {
@@ -185,4 +190,133 @@ margin: 33px 0 33px 46px;
     font-size: 36px;
     font-weight: 500;
     gap: 30px;
+}
+
+/* - - Shoes Section - - */
+
+.all-shoes-collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.all-shoes-collection img {
+    width: 336px;
+    height: 202px;
+}
+
+.all-shoes-collection h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.all-shoes-collection button {
+    width: 168px;
+    height: 52px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    background-color: black;
+    outline-style: none;
+    margin-bottom: 69px;
+    border: none;
+}
+
+
+.shoes-1 {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 360px;
+    height: 496px;
+
+}
+
+.shoes-2 {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 360px;
+    height: 496px;
+
+}
+
+.shoes-3 {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 360px;
+    height: 496px;
+
+}
+
+
+/* - - bags Section - - */
+
+.all-backpack-collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.all-backpack-collection img {
+    width: 290px;
+    height: 290px;
+}
+
+.all-backpack-collection h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.all-backpack-collection button {
+    width: 168px;
+    height: 52px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 6px;
+    background-color: black;
+    outline-style: none;
+    margin-bottom: 69px;
+    border: none;
+}
+
+
+.bags-1 {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 360px;
+    height: 584px;
+
+}
+
+.bags-2 {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 360px;
+    height: 584px;
+
+}
+
+.bags-3 {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 360px;
+    height: 584px;
+
 }
